@@ -9,7 +9,7 @@ generateButton.addEventListener("click", function() {
     passwordEl2.textContent = "";
   
     // Generate 8 characters for each password display
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 10; i++) {
       let randomIndex = Math.floor(Math.random() * characters.length);
       passwordEl1.textContent += characters[randomIndex];
       let randomIndex2 = Math.floor(Math.random() * characters.length);
